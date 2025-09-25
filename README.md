@@ -28,7 +28,7 @@ graph LR
 
 ## 🚀 快速开始
 ### 【方法1】在TRAE中配置智能体
-![TRAE智能体导入示例](pic/2.PNG)
+![TRAE智能体导入示例](pic/8.png)
 *图：在TRAE平台中导入画大图智能体系统的配置界面*
 
 ### 系统提示词的安装
@@ -198,11 +198,6 @@ Relationship_[场景缩写]_v[版本号].md
 │   ├── Relationship_QLearning_v0.1.md    # Q学习算法关系分析
 │   └── Relationship_RNBFuturistic_v0.1.md # 未来主义RNB关系分析
 └── pic/                              # 图片资源目录
-    ├── 1.png                         # 智能体导入示例图片
-    ├── 2.PNG                         # TRAE智能体导入示例图片
-    ├── 3.PNG                         # 智能体配置示例图片
-    ├── 4.png                         # 智能体使用示例图片
-    └── 5.png                         # Mermaid预览插件说明图片
 ```
 
 
