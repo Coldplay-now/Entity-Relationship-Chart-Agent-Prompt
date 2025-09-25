@@ -1,19 +1,23 @@
-# 画大图智能体系统提示词使用指南
+# 画大图智能体系统提示词
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/v/release/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/releases) [![GitHub last commit](https://img.shields.io/github/last-commit/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/commits/main) [![GitHub issues](https://img.shields.io/github/issues/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/pulls) [![Mermaid](https://img.shields.io/badge/Mermaid-FF6F00?style=flat&logo=mermaid&logoColor=white)](https://mermaid.js.org) [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![Version](https://img.shields.io/badge/Version-V0.1-blue)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
 
-## 📋 系统概述
+## 1. 项目概述
 
-本项目是一个提示词工程项目。利用系统提示词构建智能体。画大图智能体是个业务协作关系可视化工具。你与该智能体对话，可以将模糊的业务场景描述，转化为清晰的可视化图表。通过静态关系拓扑图和动态时序交互图，你能更好地理解和分析业务协作关系。
+> **"凡是能够表达清楚的，距离实现它就不远了。"**
 
-## 🎯 核心功能
+本项目是一个提示词工程项目。利用系统提示词构建智能体。画大图智能体是个业务协作关系可视化工具。
+你与该智能体对话，可以将模糊的业务场景描述，转化为清晰的可视化图表。
+通过静态关系拓扑图和动态时序交互图，你能更好地理解和分析业务协作关系。
+
+## 2. 核心功能
 
 - **业务场景分析**：系统化分析复杂业务场景、代码逻辑、业务流程等
 - **实体关系梳理**：识别和拆解关键实体和角色
 - **Mermaid可视化**：使用Mermaid Graph和Sequence两种语法生成图表
 - **双图输出**：同时提供静态拓扑图和动态时序图
 
-### 系统工作流程
+## 3. 系统工作流程
 ```mermaid
 graph LR 
      A[用户] -->|1.输入需求| B(画大图智能体) 
@@ -26,12 +30,11 @@ graph LR
 
 *图：画大图智能体系统工作流程图，展示从用户输入到结果展示的完整交互过程*
 
-## 🚀 快速开始
+## 4. 快速开始
+
 ### 【方法1】在TRAE中配置智能体
 ![TRAE智能体导入示例](pic/8.png)
 *图：在TRAE平台中导入画大图智能体系统的配置界面*
-
-### 系统提示词的安装
 拷贝下述内容，在IDE（TRAE ）的智能体中粘贴
 ```
 # 角色定位：您是专业的业务协作关系图专家，专注于将复杂业务场景可视化
@@ -66,7 +69,7 @@ graph LR
 ![在豆包中示例](pic/7.png)
 
 
-### 启动方式
+## 5. 启动方式
 每次会话开始时，系统会自动询问：
 > "请描述您需要分析的业务协作场景"
 
@@ -91,32 +94,32 @@ graph LR
 ```
 
 
-## 📊 输出格式
+## 6. 输出格式
 
 系统会生成包含以下章节的Markdown文档：
-
-### 1. 业务场景综述
+    
+> ### 1. 业务场景综述
 概述分析的业务场景和核心目标
 
-### 2. 关键实体描述
+> ### 2. 关键实体描述
 识别并描述场景中的所有关键实体和角色
 
-### 3. 静态拓扑图（Graph）
+> ### 3. 静态拓扑图（Graph）
 使用Mermaid Graph语法展示实体间的静态关系，包含：
 - 所有业务实体
 - 关系描述
 - 关系序号
 
-### 4. 时序图（Sequence）
+>### 4. 时序图（Sequence）
 使用Mermaid Sequence语法展示动态交互时序
 
-### 5. 关键业务关系说明
+>### 5. 关键业务关系说明
 详细解释每个编号关系的具体含义
 
-### 6. 业务流程描述
+>### 6. 业务流程描述
 分阶段描述完整的业务流程
 
-## 📁 文件命名规范
+## 7. 文件命名规范
 
 输出文件按照以下格式命名：
 ```
@@ -127,31 +130,26 @@ Relationship_[场景缩写]_v[版本号].md
 - `Relationship_LuckinBiz_v0.1.md`
 - `Relationship_Meituan_v0.1.md`
 
-## 🛠️ 技术限制
+## 8. 技术限制
 
 - **仅使用Mermaid语法**：不涉及其他绘图工具或编程语言
 - **不包含ER图**：专注于业务协作关系，不使用实体关系图格式
 - **业务可视化专注**：不提供业务建议，仅专注于关系可视化
 
-## ✅ 质量保证
-
-系统确保生成的图表具备：
-- **逻辑清晰**：关系流向明确易懂
-- **关系准确**：真实反映业务协作
-- **布局合理**：图表结构美观有序
-- **描述完整**：每个关系都有详细说明
-- **序号规范**：关系编号系统化
-
-## 📝 交互要求
+## 9. 交互要求
 
 系统会主动：
 - 在关键步骤与用户确认实体和关系
 - 澄清模糊或不明确的业务概念
 - 简要解释图表中的关键关系和时序逻辑
 
-## 🎨 示例文件
+## 10. 示例文件
 
 项目包含多个示例文件，可供参考：
+### 成果示例
+![画大图生成文档示例](pic/1.png)
+![画大图生成文档示例](pic/3.PNG)
+![画大图生成文档示例](pic/4.png)
 
 ### 业务场景示例
 - **`Relationship_LuckinBiz_v0.1.md`** - 瑞幸咖啡线上点单业务分析
@@ -172,18 +170,9 @@ Relationship_[场景缩写]_v[版本号].md
   - 分析未来科技风格网页的用户交互和视觉效果协作
   - 包含导航菜单、功能按钮、视觉反馈、动态效果等实体关系
 
-### 示例特点
-所有示例文档均遵循标准化输出格式，包含：
-- 📋 业务场景综述和核心目标说明
-- 👥 关键实体描述和角色定义  
-- 🔗 Graph静态拓扑图（含关系描述和序号）
-- ⏱️ Sequence动态时序交互图
-- 🔑 关键业务关系详细说明
-- 📝 完整业务流程分阶段描述
-
 这些示例展示了系统处理不同类型场景的能力，从传统业务到技术算法，再到创意交互场景。
 
-## 🔧 文件结构
+## 11. 文件结构
 
 ```
 画大图智能体系统提示词/
@@ -201,20 +190,8 @@ Relationship_[场景缩写]_v[版本号].md
 ```
 
 
-### 成果示例
-![画大图生成文档示例](pic/1.png)
-![画大图生成文档示例](pic/3.PNG)
-![画大图生成文档示例](pic/4.png)
 
-
-## 💡 最佳实践
-
-1. **详细描述**：提供尽可能详细的业务场景描述
-2. **关键实体**：明确场景中的所有参与者和系统
-3. **交互流程**：描述完整的业务流程和交互顺序
-4. **版本管理**：使用版本号管理不同迭代的分析结果
-
-## 🆘 常见问题
+## 12. 常见问题
 
 ### Q: 系统支持哪些类型的业务场景？
 A: 支持任何需要分析协作关系的业务场景，包括但不限于：
