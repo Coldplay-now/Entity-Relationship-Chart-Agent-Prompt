@@ -1,0 +1,41 @@
+# 排除备份目录
+bkp/
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器生成的文件
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 依赖目录
+node_modules/
+
+# 编译输出
+build/
+dist/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 调试文件
+*.tgz
+*.tar.gz
+
+# 临时文件
+.tmp/
+.temp/
