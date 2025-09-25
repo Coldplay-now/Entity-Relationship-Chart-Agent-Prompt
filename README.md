@@ -188,9 +188,9 @@ Relationship_[场景缩写]_v[版本号].md
 
 
 ### 成果示例
-![画大图生成文档示例](pic/1.PNG)
+![画大图生成文档示例](pic/1.png)
 ![画大图生成文档示例](pic/3.PNG)
-![画大图生成文档示例](pic/4.PNG)
+![画大图生成文档示例](pic/4.png)
 
 
 ## 💡 最佳实践
@@ -219,7 +219,7 @@ A: 生成的Markdown文件支持在支持Mermaid的Markdown查看器中直接渲
 ### Q: 在AI IDE中如何预览Mermaid图表？
 A: 如果您使用AI IDE（如TRAE IDE），可以在IDE的插件市场中搜索安装 **Markdown Preview Mermaid Support** 插件。该插件可以在Markdown预览中直接渲染Mermaid图表，支持几乎所有Mermaid语法，且与VS Code原生Markdown预览无缝集成。
 
-![示例](pic/5.PNG)
+![示例](pic/5.png)
 
 ### Q: 是否可以自定义输出格式？
 A: 系统采用标准化的输出格式以确保一致性和可读性，但您可以根据需要调整生成文档的具体内容。
