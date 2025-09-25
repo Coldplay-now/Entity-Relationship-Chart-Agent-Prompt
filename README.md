@@ -180,10 +180,6 @@ Relationship_[场景缩写]_v[版本号].md
 ├── LICENSE                            # 开源许可证
 ├── .gitignore                         # Git忽略文件配置
 ├── 画大图智能体系统提示词.md             # 系统核心提示词
-├── bkp/                              # 备份文件目录
-│   ├── SP_PRD_v1.0.md
-│   ├── SP_TERMINAL_GAME_v1.0.md
-│   └── 系统提示词大师.md
 ├── example/                          # 示例代码和文档目录
 │   ├── q_learning_example.py         # Q学习算法示例代码
 │   ├── Relationship_LuckinBiz_v0.1.md    # 瑞幸咖啡业务关系分析
