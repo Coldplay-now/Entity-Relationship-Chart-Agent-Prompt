@@ -1,12 +1,10 @@
 # 画大图智能体系统提示词使用指南
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/v/release/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/releases) [![GitHub last commit](https://img.shields.io/github/last-commit/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/commits/main) [![GitHub issues](https://img.shields.io/github/issues/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/pulls)
-
-[![Version](https://img.shields.io/badge/Version-V0.1-blue)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/v/release/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/releases) [![GitHub last commit](https://img.shields.io/github/last-commit/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/commits/main) [![GitHub issues](https://img.shields.io/github/issues/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/pulls) [![Mermaid](https://img.shields.io/badge/Mermaid-FF6F00?style=flat&logo=mermaid&logoColor=white)](https://mermaid.js.org) [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![Version](https://img.shields.io/badge/Version-V0.1-blue)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
 
 ## 📋 系统概述
 
-画大图智能体是一个专业的业务协作关系可视化工具，专注于将复杂的业务场景通过Mermaid语法转化为清晰的可视化图表。系统能够同时生成静态关系拓扑图和动态时序交互图，帮助用户更好地理解和分析业务协作关系。
+本项目是一个提示词工程项目。利用系统提示词构建智能体。画大图智能体是一个专业的业务协作关系可视化工具，专注于将复杂的业务场景通过Mermaid语法转化为清晰的可视化图表。系统能够同时生成静态关系拓扑图和动态时序交互图，帮助用户更好地理解和分析业务协作关系。
 
 ## 🎯 核心功能
 
@@ -14,6 +12,19 @@
 - **实体关系梳理**：识别和拆解关键实体和角色
 - **Mermaid可视化**：使用Graph和Sequence两种语法生成图表
 - **双图输出**：同时提供静态拓扑图和动态时序图
+
+### 系统工作流程
+```mermaid
+graph TD 
+     A[用户] -->|1.输入需求| B(画大图智能体) 
+     B -->|2.解析业务场景| C[识别关键实体] 
+     B -->|3.分析协作关系| D[梳理交互时序] 
+     B -->|4.生成双图| E[Graph + Sequence] 
+     E -->|5.输出文档| F[Markdown文件] 
+     F -->|6.展示结果| A
+```
+
+*图：画大图智能体系统工作流程图，展示从用户输入到结果展示的完整交互过程*
 
 ## 🚀 快速开始
 ### 智能体导入示例
@@ -163,9 +174,6 @@ Relationship_[场景缩写]_v[版本号].md
 
 ## 🔧 文件结构
 
-[![Mermaid](https://img.shields.io/badge/Mermaid-FF6F00?style=flat&logo=mermaid&logoColor=white)](https://mermaid.js.org) [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
-
-```
 画大图智能体系统提示词/
 ├── README.md                 # 本使用指南
 ├── 画大图智能体系统提示词.md    # 系统核心提示词
@@ -207,6 +215,11 @@ A: 生成的Markdown文件支持在支持Mermaid的Markdown查看器中直接渲
 - VS Code with Mermaid插件
 - GitHub/GitLab
 - Typora等Markdown编辑器
+
+### Q: 在AI IDE中如何预览Mermaid图表？
+A: 如果您使用AI IDE（如TRAE IDE），可以在IDE的插件市场中搜索安装 **Markdown Preview Mermaid Support** 插件。该插件可以在Markdown预览中直接渲染Mermaid图表，支持几乎所有Mermaid语法，且与VS Code原生Markdown预览无缝集成。
+
+![示例](pic/5.PNG)
 
 ### Q: 是否可以自定义输出格式？
 A: 系统采用标准化的输出格式以确保一致性和可读性，但您可以根据需要调整生成文档的具体内容。
