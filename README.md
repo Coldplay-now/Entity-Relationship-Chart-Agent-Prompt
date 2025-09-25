@@ -1,4 +1,8 @@
-# 画大图智能体系统使用指南
+# 画大图智能体系统提示词使用指南
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release](https://img.shields.io/github/v/release/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/releases) [![GitHub last commit](https://img.shields.io/github/last-commit/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/commits/main) [![GitHub issues](https://img.shields.io/github/issues/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt/pulls)
+
+[![Version](https://img.shields.io/badge/Version-V0.1-blue)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
 
 ## 📋 系统概述
 
@@ -158,6 +162,8 @@ Relationship_[场景缩写]_v[版本号].md
 这些示例展示了系统处理不同类型场景的能力，从传统业务到技术算法，再到创意交互场景。
 
 ## 🔧 文件结构
+
+[![Mermaid](https://img.shields.io/badge/Mermaid-FF6F00?style=flat&logo=mermaid&logoColor=white)](https://mermaid.js.org) [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com) [![TRAE IDE](https://img.shields.io/badge/TRAE_IDE-FF6F00?style=flat&logo=visualstudiocode&logoColor=white)](https://trae.com) [![DeepSeek 3.1](https://img.shields.io/badge/DeepSeek_3.1-000000?style=flat&logo=openai&logoColor=white)](https://deepseek.com) [![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8A2BE2?style=flat&logo=bookstack&logoColor=white)](https://github.com/Coldplay-now/Entity-Relationship-Chart-Agent-Prompt)
 
 ```
 画大图智能体系统提示词/
