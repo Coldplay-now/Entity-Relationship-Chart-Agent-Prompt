@@ -15,7 +15,7 @@
 
 ### 系统工作流程
 ```mermaid
-graph TD 
+graph LR 
      A[用户] -->|1.输入需求| B(画大图智能体) 
      B -->|2.解析业务场景| C[识别关键实体] 
      B -->|3.分析协作关系| D[梳理交互时序] 
@@ -174,17 +174,29 @@ Relationship_[场景缩写]_v[版本号].md
 
 ## 🔧 文件结构
 
+```
 画大图智能体系统提示词/
-├── README.md                 # 本使用指南
-├── 画大图智能体系统提示词.md    # 系统核心提示词
-├── Relationship_*.md        # 各种业务场景分析文档
-├── example/                 # 示例代码目录
-│   └── q_learning_example.py
-└── pic/                     # 图片资源目录
-    ├── 1.png
-    ├── 2.PNG                # TRAE智能体导入示例图片
-    ├── 3.PNG
-    └── 4.png
+├── README.md                          # 本使用指南
+├── LICENSE                            # 开源许可证
+├── .gitignore                         # Git忽略文件配置
+├── 画大图智能体系统提示词.md             # 系统核心提示词
+├── bkp/                              # 备份文件目录
+│   ├── SP_PRD_v1.0.md
+│   ├── SP_TERMINAL_GAME_v1.0.md
+│   └── 系统提示词大师.md
+├── example/                          # 示例代码和文档目录
+│   ├── q_learning_example.py         # Q学习算法示例代码
+│   ├── Relationship_LuckinBiz_v0.1.md    # 瑞幸咖啡业务关系分析
+│   ├── Relationship_Meituan_v0.1.md      # 美团业务关系分析
+│   ├── Relationship_QLearning_v0.1.md    # Q学习算法关系分析
+│   └── Relationship_RNBFuturistic_v0.1.md # 未来主义RNB关系分析
+└── pic/                              # 图片资源目录
+    ├── 1.png                         # 智能体导入示例图片
+    ├── 2.PNG                         # TRAE智能体导入示例图片
+    ├── 3.PNG                         # 智能体配置示例图片
+    ├── 4.png                         # 智能体使用示例图片
+    └── 5.png                         # Mermaid预览插件说明图片
+```
 
 
 ### 成果示例
